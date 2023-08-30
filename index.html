@@ -232,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const randomIndex = Math.floor(Math.random() * clickableElements.length);
       applyAnimation(clickableElements[randomIndex]);
       lastElementIndex = randomIndex;
-    }, 500);
+    }, 250);
   }
 
   function stopAnimation() {
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       stopAnimation();
       startButton.disabled = false;
-    }, 10000);
+    }, 5000);
   });
 });
 
